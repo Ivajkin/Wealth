@@ -2,7 +2,7 @@
 pragma solidity ^0.8.1;
 
 // This is a smart contract - a program that can be deployed to the Ethereum blockchain.
-contract SimpleToken {
+contract WealthToken {
     // An address is comparable to an email address - it's used to identify an account on Ethereum.
     address public owner;
     uint256 public constant token_supply = 1000000000000;
@@ -12,7 +12,7 @@ contract SimpleToken {
     mapping (address => uint) public balances;
 
 
-  // When 'SimpleToken' contract is deployed:
+  // When 'WealthToken' contract is deployed:
   // 1. set the deploying address as the owner of the contract
   // 2. set the token balance of the owner to the total token supply
     constructor() {
