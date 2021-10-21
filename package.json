@@ -1,0 +1,27 @@
+{
+  "name": "wealth",
+  "version": "1.0.0",
+  "description": "currency",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "go get github.com/ethereum/go-ethereum/cmd/puppeth"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivajkin/Wealth.git"
+  },
+  "keywords": [
+    "eth",
+    "currency"
+  ],
+  "author": "Timothy Ivaikin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ivajkin/Wealth/issues"
+  },
+  "homepage": "https://github.com/Ivajkin/Wealth#readme"
+}
